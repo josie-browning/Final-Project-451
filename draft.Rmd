@@ -1,0 +1,42 @@
+---
+title: "draft"
+output: html_document
+date: "2026-03-12"
+---
+
+# Choice of Topic
+
+Our mission for this project was to create an r package structure that can be used to more directly handle normal forms of data. We want to incorporate functions that can aid in finding/building keys for different data sets, and test different normal forms. Our R package will be somewhat of a cousin to testdat, but will provide functions that more directly handle normal form information.
+
+In this draft was have the following functions:
+
+1.  is.key() this function would allow any number of column names to be imputed and with a true/false results on whether or not the combination of columns is a key
+2.  find.keys() this would be able to reveal keys with the lowest number of column combinations that exist in the dataset, potentially an argument exists within this function of n= a number of columns, where the user can see the keys that exist from a certain number of columns and if none exist then the function would return an error
+3.  first.normal() results in true/false if the data set is in first normal form or not
+4.  second.normal() results in true/false if the data set is in second normal form or not
+
+# Plan of Work Details
+
+## Previous Work:
+
+-   Draft outlines of each function, including information on:
+
+-   Expected input of the data
+
+-   Expected output of the data
+
+-   Plain English logic on how the function should operate
+
+-   Working draft code of each function
+
+-   Test function on different data sets
+
+# Notes from Last Semester
+
+-   Further explore stress testing function on the data
+
+-   Add optional arguments for a more customization data approach
+
+-   Analyze how missingness may impact functions
+
+-   Review Tidy Manifesto

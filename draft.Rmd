@@ -37,6 +37,8 @@ We plan to add at least two two functions as well as revise the existing ones.
 
 -   Add third normal form handling
 
+-   Consider incorporating C++ in functions that take a long time, or compare function speed
+
 -   Additional function for attribute dependencies
 
 -   Review/major edit of package structure for stability
